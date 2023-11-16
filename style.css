@@ -7,3 +7,46 @@
     font-size: 16px;
     font-family: monospace;
 }
+
+h1, h2, p {
+    margin-bottom: 1em;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width: 100%;
+    background: grey;
+    height: 100vh;
+}
+
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#emoji{
+    font-size: 10em;
+    user-select: none;
+    transition: 500ms;
+    background: whitesmoke;
+    padding: 0.5ms;
+    border-radius: 10px;
+}
+
+#emoji:hover{
+    font-size: 20em;
+    transition: 500ms;
+    transform: rotate(360deg);
+}
+
+#random-emoji{
+    background: rgb(30,30,30)
+}
