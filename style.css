@@ -50,3 +50,44 @@ section{
 #random-emoji{
     background: rgb(30,30,30)
 }
+
+#texto-usuario{
+    background: whitesmoke;
+}
+
+#texto{
+    font-size: 4em;
+    background: hotpink;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    transition: 500ms;
+    user-select: none;
+    box-shadow: 0px 0px 0px black;
+
+}
+
+#texto:hover{
+    background: hotpink;
+    box-shadow: 20px 20px 0px black;
+    transition: 500ms;
+    transform: translate(-20px, -20px)
+}
+
+.quarterwidth{
+    width: 25%;
+}
+
+.mediumwidth{
+    width: 50%;
+    background: purple;
+}
+
+#color-selection{
+    background:antiquewhite;
+}
+
+#color-output{
+    width: 20vw;
+    height: 20vw;
+    background: black;
+}

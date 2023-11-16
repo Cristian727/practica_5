@@ -12,11 +12,20 @@
 <body>
     <section id="random-emoji" class="flex-center">
      <h2 id="emoji" onclick="randomEmoji()">🦂​</h2>
-     
     </section>
     <section id="texto-usuario" class="flex-center">
-        <h2 id=""texto">Escribe dentro del input</h2>
-        <input id="input-text" type="text">
+        <h2 id="texto">Escribe dentro del input</h2>
+        <input id="input-text" type="text" oninput="textInput()" minlength="1">
+    </section>
+    <section id="color-selection" class="flex-center">
+        <h2>Color RGB</h2>
+        <div class="quarterwidth flex-center">
+            <div id="color-output"></div>
+            <input type="range" min="0" max="255" id="R-input" class="color-input">
+            <input type="range" min="0" max="255" id="G-input" class="color-input">
+            <input type="range" min="0" max="255" id="B-input" class="color-input">
+        </div>
+
     </section>
 </body>
 </html>
