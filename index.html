@@ -6,6 +6,8 @@
     <title>Document</title>
     <script src="/scripts/emoji.js"></script>
     <script src="/scripts/texto.js"></script>
+    <script src="/scripts/color.js"></script>
+
     <link rel="stylesheet" href="style.css">
     
 </head>
@@ -21,9 +23,9 @@
         <h2>Color RGB</h2>
         <div class="quarterwidth flex-center">
             <div id="color-output"></div>
-            <input type="range" min="0" max="255" id="R-input" class="color-input">
-            <input type="range" min="0" max="255" id="G-input" class="color-input">
-            <input type="range" min="0" max="255" id="B-input" class="color-input">
+            <input type="range" min="0" max="255" id="R-input" class="color-input" oninput="newColor()">
+            <input type="range" min="0" max="255" id="G-input" class="color-input" oninput="newColor()">
+            <input type="range" min="0" max="255" id="B-input" class="color-input" oninput="newColor()">
         </div>
 
     </section>

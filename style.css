@@ -90,4 +90,9 @@ section{
     width: 20vw;
     height: 20vw;
     background: black;
+    margin-bottom: 2em;
+}
+
+.color-input{
+    width: 100%;
 }
